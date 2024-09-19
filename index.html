@@ -77,20 +77,57 @@
     <!-- feature section -->
     <section id="feature">
       <div
-        class="relative container flex flex-col max-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+        class="relative container flex flex-col max-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0"
+      >
         <!-- image -->
-         <img src="images/desktop/image-interactive.jpg" alt="interactive img">
-         <!-- text container -->
-          <div class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
-            <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">The Leader in Interactive VR</h2>
-            <p class="max-w-md text-center md:text-left">
-              Founded in 2011, Loopstudios has been producing world-class virtual
+        <img src="images/desktop/image-interactive.jpg" alt="interactive img" />
+        <!-- text container -->
+        <div
+          class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20"
+        >
+          <h2
+            class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left"
+          >
+            The Leader in Interactive VR
+          </h2>
+          <p class="max-w-md text-center md:text-left">
+            Founded in 2011, Loopstudios has been producing world-class virtual
             reality projects for some of the best companies around the globe.
             Our award-winning creations have transformed businesses through
             digital experiences that bind to their brand.
-            </p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- creations section -->
+    <section id="creations">
+      <!-- creations container -->
+      <div class="container max-w-6xl mx-auto my-32 px-6 text-gray-900 md:px-0">
+        <!-- creations header -->
+        <div class="flex justify-center mb-20 md:justify-between">
+          <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl">
+            Our Creations
+          </h2>
+          <button class="hidden btn md:block">See All</button>
+        </div>
+
+        <!-- Items container -->
+        <div
+          class="item-container">
+          <!-- item 1 -->
+          <div class="group relative overflow-hidden md:w-1/4">
+            <!-- desktop img -->
+            <img class="hidden w-full duration-200 md:block group-hover:scale-110 " src="images/desktop/image-deep-earth.jpg" alt="">
+            <!-- mobile img -->
+            <img class="w-full md:hidden" src="images/mobile/image-deep-earth.jpg" alt="">
+            <!-- item gradient -->
+             <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70"></div>
+            <!-- item text -->
+             <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black">Deep Earth</h5>
           </div>
-    </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
